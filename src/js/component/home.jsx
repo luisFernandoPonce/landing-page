@@ -13,16 +13,16 @@ const Home = () => {
 			<Nav></Nav>
 			<Jum></Jum>
 			<div className="row">
-				<div className="col-lg-3">
+				<div className="col-3">
 					<Card></Card>
 				</div>
-				<div className="col-lg-3">
+				<div className="col-3">
 					<Card></Card>
 				</div>
-				<div className="col-lg-3">
+				<div className="col-3">
 					<Card></Card>
 				</div>
-				<div className="col-lg-3">
+				<div className="col-3">
 					<Card></Card>
 				</div>
 			</div>
