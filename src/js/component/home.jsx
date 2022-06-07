@@ -2,12 +2,32 @@ import React from "react";
 
 //include images into your bundle
 import rigoImage from "../../img/rigo-baby.jpg";
+import Nav from "./navbar.jsx";
+import Jum from "./jumbro.jsx";
+import Card from "./card.jsx";
 
 //create your first component
 const Home = () => {
 	return (
 		<div>
-			<h1 className="text-center mt-5">Hello Rigo!</h1>
+			<Nav></Nav>
+			<Jum></Jum>
+			<div className="row">
+				<div className="col-lg-3">
+					<Card></Card>
+				</div>
+				<div className="col-lg-3">
+					<Card></Card>
+				</div>
+				<div className="col-lg-3">
+					<Card></Card>
+				</div>
+				<div className="col-lg-3">
+					<Card></Card>
+				</div>
+			</div>
+
+			{/* <h1 className="text-center mt-5">Hello Rigo!</h1>
 			<p>
 				<img src={rigoImage} />
 			</p>
@@ -18,7 +38,7 @@ const Home = () => {
 				Made by{" "}
 				<a href="http://www.4geeksacademy.com">4Geeks Academy</a>, with
 				love!
-			</p>
+			</p> */}
 		</div>
 	);
 };
